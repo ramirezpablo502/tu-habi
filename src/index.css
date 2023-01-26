@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("../assets/fonts/Gotham-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../assets/fonts/Gotham-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Regular";
+  src: url("../assets/fonts/Gotham-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Italic";
+  src: url("../assets/fonts/Gotham-Italic.otf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +31,7 @@
 
 html,
 body {
-  font-family: "Europa regular", sans-serif;
+  font-family: "Gotham-Regular", sans-serif;
   background-color: #fff;
   height: 100%;
   width: 100%;

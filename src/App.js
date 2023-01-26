@@ -1,9 +1,13 @@
-function App() {
+import { BrowserRouter } from 'react-router-dom'
+
+import Router from './router'
+
+const App = () => {
   return (
-    <div className="App">
-      <p>Primera vista</p>
-    </div>
-  );
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
