@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("./assets/fonts/Gotham-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("./assets/fonts/Gotham-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("./assets/fonts/Gotham-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Regular";
+  src: url("./assets/fonts/Gotham-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Italic";
+  src: url("./assets/fonts/Gotham-Italic.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Gotham-Regular", sans-serif;
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.75;
+  letter-spacing: 0;
+  padding: 1em 2em;
+}
+
+.main-container {
+  margin-top: 76px;
+}
+
+.primary-button {
+  font-family: "Gotham-Bold", sans-serif;
+  background-color: transparent;
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+}

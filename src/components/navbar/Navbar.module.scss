@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  width: 100%;
+  padding: 1em 40px;
+
+  background-color: #FFFFFF20;
+  box-shadow: 0 4px 30px #00000010;
+  backdrop-filter: blur(6.9px);
+
+  @media (max-width: 600px) {
+    padding: 1em 20px;
+  }
+
+  &>img {
+    width: fit-content;
+    height: 40px;
+    object-fit: contain;
+  }
+}

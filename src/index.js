@@ -6,8 +6,10 @@ import ReactDOM from 'react-dom'
 import store from './redux/store'
 import App from './App'
 
-import './index.css'
+/* Import global file scss */
+import './index.scss'
 
+/* Creating a persistor object that will be used to persist the store. */
 const persistor = persistStore(store)
 
 const Root = () => (

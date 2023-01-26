@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column-reverse;
+  }
+
+  .--left-column {
+    width: 60%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .--right-column {
+    width: 40%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "component": 1,
+    "title": "Datos del cliente",
+    "input_type": "text",
+    "path": "/venta/datos-cliente",
+    "description": "Este es el primer paso",
+    "options": null,
+    "backend": "fullname"
+  },
+  {
+    "component": 2,
+    "title": "Correo electronico",
+    "input_type": "email",
+    "path": "/venta/correo-electronico",
+    "description": "Este es el segundo paso",
+    "options": null,
+    "backend": "email"
+  },
+  {
+    "component": 3,
+    "title": "Dirección",
+    "input_type": "text",
+    "path": "/venta/direccion",
+    "description": "Este es el tercer paso",
+    "options": null,
+    "backend": "address"
+  },
+  {
+    "component": 4,
+    "title": "Piso",
+    "input_type": "text",
+    "path": "/venta/piso",
+    "description": "Este es el cuarto paso",
+    "options": null,
+    "backend": "floor_located"
+  },
+  {
+    "component": 5,
+    "title": "Amenidades",
+    "input_type": "checkbox",
+    "path": "/venta/amenidades",
+    "description": "Este es el quinto paso",
+    "options": ["Zona BBQ", "Salón comunal", "Parque de juegos"],
+    "backend": "amenities"
+  },
+  {
+    "component": 6,
+    "title": "Estacionamiento",
+    "input_type": "text",
+    "path": "/venta/estacionamiento",
+    "description": "Este es el sexto paso",
+    "options": null,
+    "backend": "parking"
+  },
+  {
+    "component": 7,
+    "title": "Precio",
+    "input_type": "number",
+    "path": "/venta/precio",
+    "description": "Este es el septimo paso",
+    "options": null,
+    "backend": "price"
+  },
+  {
+    "component": 8,
+    "title": "Fotografía",
+    "input_type": "image",
+    "path": "/venta/fotografia",
+    "description": "Este es el octavo paso",
+    "options": null,
+    "backend": "photo"
+  },
+  {
+    "component": 9,
+    "title": "Asensor",
+    "input_type": "select",
+    "path": "/venta/asensor",
+    "description": "Este es el noveno paso. ¡Ya casi terminamos!",
+    "options": ["si", "no"],
+    "backend": "elevator"
+  }
+]
