@@ -5,7 +5,7 @@
     "title": "Datos del cliente",
     "input_type": "text",
     "path": "/venta/datos-cliente",
-    "description": "Este es el primer paso",
+    "description": "Ingresa tu nombre completo",
     "options": null,
     "name": "fullname",
     "label": "fullname"
@@ -16,7 +16,7 @@
     "title": "Correo electronico",
     "input_type": "email",
     "path": "/venta/correo-electronico",
-    "description": "Este es el segundo paso",
+    "description": "dejanos tu correo electroónico",
     "options": null,
     "name": "email",
     "label": "email"
@@ -27,7 +27,7 @@
     "title": "Dirección",
     "input_type": "text",
     "path": "/venta/direccion",
-    "description": "Este es el tercer paso",
+    "description": "Ingresa la dirección de tu apartamento",
     "options": null,
     "name": "address",
     "label": "address"
@@ -38,7 +38,7 @@
     "title": "Piso",
     "input_type": "text",
     "path": "/venta/piso",
-    "description": "Este es el cuarto paso",
+    "description": "Por favor captura tu número de piso",
     "options": null,
     "name": "floor",
     "label": "floor"
@@ -49,7 +49,7 @@
     "title": "Amenidades",
     "input_type": "checkbox",
     "path": "/venta/amenidades",
-    "description": "Este es el quinto paso",
+    "description": "Selecciona las amenidades disponibles",
     "options": [{
       "title": "Zona BBQ",
       "active": false
@@ -69,7 +69,7 @@
     "title": "Estacionamiento",
     "input_type": "text",
     "path": "/venta/estacionamiento",
-    "description": "Este es el sexto paso",
+    "description": "Si cuentas con estacionamiento propio, selecciona una opción",
     "options": ["si", "no"],
     "name": "parking",
     "label": "parking"
@@ -80,7 +80,7 @@
     "title": "Precio",
     "input_type": "text",
     "path": "/venta/precio",
-    "description": "Este es el septimo paso",
+    "description": "¿En que precio vendes tu propiedad?",
     "options": null,
     "name": "price",
     "label": "price"
@@ -91,7 +91,7 @@
     "title": "Fotografía",
     "input_type": "file",
     "path": "/venta/fotografia",
-    "description": "Este es el octavo paso",
+    "description": "Añade una fotografía de tu apartamento",
     "options": null,
     "name": "photo",
     "label": "photo"
