@@ -155,3 +155,10 @@ export const soloNumbers = (e) => {
     e.preventDefault()
   }
 }
+
+/**
+ * It takes a number and returns a string with the number formatted as currency.
+ * @param value - The value to be formatted.
+ * @returns A string with the value of the number passed in with a comma after every third digit.
+ */
+export const formatCurrency = (value) => { return (+value).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,') }

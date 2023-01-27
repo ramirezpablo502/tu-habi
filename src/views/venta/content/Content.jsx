@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom'
 import { validateParam } from '../../../helpers'
-import { Background } from '../background/Background'
 import { Steppers } from '../steppers'
 import { Tracing } from '../tracing/Tracing'
 
+import Resumen from '../resumen'
 import styles from './Content.module.scss'
 
 export const Content = () => {
@@ -17,7 +17,7 @@ export const Content = () => {
         <Steppers step={step} />
       </div>
       <div className={styles['--right-column']}>
-        <Background />
+        <Resumen />
       </div>
     </section>
   )

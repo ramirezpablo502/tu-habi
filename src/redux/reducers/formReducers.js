@@ -1,4 +1,5 @@
 import {
+  RESET_STORE,
   SET_FULLNAME,
   SET_EMAIL,
   SET_ADDRESS,
@@ -35,6 +36,10 @@ const initialState = {
 
 const formReducers = (state = initialState, action) => {
   switch (action.type) {
+    case RESET_STORE:
+      return {
+        state: initialState
+      }
     case SET_FULLNAME:
       return {
         ...state,

@@ -1,0 +1,109 @@
+.container {
+  margin-top: 76px;
+  padding: 40px;
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 600px) {
+    display: block;
+  }
+
+  .--content-image {
+    width: 54%;
+    height: 55vh;
+    border-radius: 10px;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      height: 35vh;
+    }
+
+    &>img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .--content-cards {
+    width: 45%;
+    padding: 15px 20px;
+    box-shadow: 0 4px 30px #00000010;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    &>div {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.label {
+  font-family: 'Gotham-Bold', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: .2em;
+}
+
+.text {
+  font-family: 'Gotham-Ligth', sans-serif;
+  font-size: 14px;
+  color: #4C4498;
+}
+
+.container_without {
+  width: 100%;
+  height: calc(100vh - 76px);
+  margin-top: 76px;
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+
+  &>h1>span:hover {
+    color: #4C4498;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.content_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn_primary {
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #4C4498;
+  margin-top: 1em;
+  color: #FFFFFF;
+  font-family: 'Gotham-Bold', sans-serif;
+  margin-left: 10px;
+}
+
+.btn_secondary {
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin-top: 1em;
+  color: #000000;
+  font-family: 'Gotham-Bold', sans-serif;
+}

@@ -1,4 +1,5 @@
 import {
+  RESET_STORE,
   SET_FULLNAME,
   SET_EMAIL,
   SET_ADDRESS,
@@ -14,6 +15,13 @@ import {
 export const setFullName = (value) => {
   return {
     type: SET_FULLNAME,
+    payload: value
+  }
+}
+
+export const resetStore = (value) => {
+  return {
+    type: RESET_STORE,
     payload: value
   }
 }
