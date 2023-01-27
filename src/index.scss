@@ -42,6 +42,17 @@ a {
   text-decoration: none;
 }
 
+input, select {
+  padding: 0.75rem !important;
+  box-sizing: content-box !important;
+  background: none transparent !important;
+  width: -webkit-fill-available;
+  height: 20px !important;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  font-family: 'Gotham-Bold', sans-serif;
+}
+
 button {
   display: inline-flex;
   align-items: center;
@@ -62,6 +73,12 @@ button {
   line-height: 1.75;
   letter-spacing: 0;
   padding: 1em 2em;
+
+  &:disabled{
+    cursor: no-drop;
+    pointer-events: all;
+    opacity: 0.5;
+  }
 }
 
 .main-container {
@@ -80,4 +97,8 @@ button {
     background-color: #FFFFFF;
     color: #000000;
   }
+}
+
+.pac-container {
+  z-index: 100000 !important;
 }

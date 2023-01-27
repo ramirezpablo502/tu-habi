@@ -1,83 +1,110 @@
 [
   {
     "component": 1,
+    "list": false,
     "title": "Datos del cliente",
     "input_type": "text",
     "path": "/venta/datos-cliente",
     "description": "Este es el primer paso",
     "options": null,
-    "backend": "fullname"
+    "name": "fullname",
+    "label": "fullname"
   },
   {
     "component": 2,
+    "list": false,
     "title": "Correo electronico",
     "input_type": "email",
     "path": "/venta/correo-electronico",
     "description": "Este es el segundo paso",
     "options": null,
-    "backend": "email"
+    "name": "email",
+    "label": "email"
   },
   {
     "component": 3,
+    "list": false,
     "title": "Dirección",
     "input_type": "text",
     "path": "/venta/direccion",
     "description": "Este es el tercer paso",
     "options": null,
-    "backend": "address"
+    "name": "address",
+    "label": "address"
   },
   {
     "component": 4,
+    "list": false,
     "title": "Piso",
     "input_type": "text",
     "path": "/venta/piso",
     "description": "Este es el cuarto paso",
     "options": null,
-    "backend": "floor_located"
+    "name": "floor",
+    "label": "floor"
   },
   {
     "component": 5,
+    "list": true,
     "title": "Amenidades",
     "input_type": "checkbox",
     "path": "/venta/amenidades",
     "description": "Este es el quinto paso",
-    "options": ["Zona BBQ", "Salón comunal", "Parque de juegos"],
-    "backend": "amenities"
+    "options": [{
+      "title": "Zona BBQ",
+      "active": false
+    },{
+      "title":"Salón comunal",
+      "active": false
+    },{
+      "title":"Parque de juegos",
+      "active": false
+    }],
+    "name": "amenities",
+    "label": "amenities"
   },
   {
     "component": 6,
+    "list": true,
     "title": "Estacionamiento",
     "input_type": "text",
     "path": "/venta/estacionamiento",
     "description": "Este es el sexto paso",
-    "options": null,
-    "backend": "parking"
+    "options": ["si", "no"],
+    "name": "parking",
+    "label": "parking"
   },
   {
     "component": 7,
+    "list": false,
     "title": "Precio",
-    "input_type": "number",
+    "input_type": "text",
     "path": "/venta/precio",
     "description": "Este es el septimo paso",
     "options": null,
-    "backend": "price"
+    "name": "price",
+    "label": "price"
   },
   {
     "component": 8,
+    "list": false,
     "title": "Fotografía",
-    "input_type": "image",
+    "input_type": "file",
     "path": "/venta/fotografia",
     "description": "Este es el octavo paso",
     "options": null,
-    "backend": "photo"
+    "name": "photo",
+    "label": "photo"
   },
   {
     "component": 9,
+    "list": true,
     "title": "Asensor",
     "input_type": "select",
     "path": "/venta/asensor",
-    "description": "Este es el noveno paso. ¡Ya casi terminamos!",
+    "description": "¿Tu apartamento cuenta con asensor?",
     "options": ["si", "no"],
-    "backend": "elevator"
+    "name": "elevator",
+    "label": "elevator"
   }
 ]

@@ -1,5 +1,5 @@
 import { NotFound } from '../notFound'
-import { Step } from '../step/Step'
+import { ContentForm } from '../contentForm/ContentForm'
 
 import styles from './Steppers.module.scss'
 import data from '../../../services/index.json'
@@ -10,7 +10,7 @@ export const Steppers = ({ step }) => {
     let render = null
     const params = data[step]
     if (step !== null) {
-      render = <Step params={params} />
+      render = <ContentForm params={params} />
     } else {
       render = <NotFound />
     }

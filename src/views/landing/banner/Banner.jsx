@@ -9,7 +9,7 @@ export const Banner = () => {
     <section className={styles.container}>
       <div className={styles.shadow_content}>
         <div>
-          <h1>Vende tu deparamento de manera sencilla</h1>
+          <h1>Vende tu departamento de manera sencilla</h1>
           <Link to='/venta/datos-cliente'>
             <button className='primary-button'>Vender</button>
           </Link>

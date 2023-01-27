@@ -5,8 +5,11 @@ import { persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 import thunk from 'redux-thunk'
 
+/* import store */
+import formReducers from '../reducers/formReducers'
+
 const reducers = combineReducers({
-  // TODO
+  formReducers
 })
 
 const persistConfig = {

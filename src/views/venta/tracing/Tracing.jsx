@@ -18,5 +18,5 @@ export const Tracing = ({ step }) => {
 }
 
 Tracing.propTypes = {
-  step: propTypes.object
+  step: propTypes.number
 }
