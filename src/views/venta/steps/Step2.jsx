@@ -16,7 +16,7 @@ const Step2 = (props) => {
   const disabled = !email
 
   const next = () => {
-    const validateEmail = /^\w+@(\w+\.)+\w{2,4}$/
+    const validateEmail = /\S+@\S+\.\S+/
     if (validateEmail.exec(email)) {
       props.setEmail(email)
       navigate('/venta/direccion')
