@@ -1,4 +1,4 @@
-import { NotFound } from '../notFound'
+import { NotFound } from '../NotFound'
 import { ContentForm } from '../contentForm/ContentForm'
 
 import styles from './Steppers.module.scss'
