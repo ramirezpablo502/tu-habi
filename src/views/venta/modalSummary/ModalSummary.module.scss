@@ -1,0 +1,27 @@
+.open {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  transition: max-height 0.15s ease-out;
+
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  padding: 20px;
+}
+
+.close {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 0vh;
+  transition: max-height 0.15s ease-out;
+
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
